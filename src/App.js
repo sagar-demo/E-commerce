@@ -11,6 +11,7 @@ import {
 import Cart from "./pages/Cart";
 import { productsData } from "./api/Api";
 import Product from "./components/Product";
+import Login from "./pages/Login";
 const Layout = () => {
   return (
     <div>
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },

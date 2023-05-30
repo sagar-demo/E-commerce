@@ -1,6 +1,7 @@
 import React from "react";
 import { ImGithub } from "react-icons/im";
 import { logoDark, paymentLogo } from "../assets";
+
 import {
   FaFacebookF,
   FaTwitter,
